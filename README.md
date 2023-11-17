@@ -7,19 +7,29 @@ The dataset used is the [Cardiovascular Diseases Risk Prediction dataset](https:
 ## Auto-EDA
 Running the `eda` pipeline will launch the following Auto-EDA dashboard, allowing the users to observe the dataset.
 
+![eda](images/eda.png)
+
 ## Data Preprocessing
 Users can implement custom functions to preprocess the data. In our case, the preprocessing codes can be found in `Data_Preprocessing.ipynb`, inside the `notebooks` directory.
 
 ## ML Models Experimentation
 The `model_experimentation` triggered the training of various Logistic Regression, Random Forest, and XGBoost models.
 
+![tracking](images/tracking.png)
+
 ## Model Explainability
 Model explainability can be further explored using the `model_explainability` pipeline.
+
+![explain](images/explainer.png)
 
 ## Bias Analysis
 Bias analysis can be performed using the Aequitas web app, with the data provided by using the `bias_analysis_data_prep` pipeline.
 
+![bias](images/bias.png)
+
 ## Data Drift Analysis
 As new data is obtained, drift detection can be performed using the `data_drift_analysis` pipeline. 
+
+![drift](images/drift.png)
 
 Note: To create a hypothetical example, some rows were sampled from the original dataset and were assumed to be the new data.
