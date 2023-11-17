@@ -1,0 +1,43 @@
+task:
+  eda: 
+  data_preprocessing: 
+  model_experimentation:
+  model_finalization:
+  model_inference:
+  model_explainability: True
+  bias_analysis_data_prep:
+  data_drift_analysis: True
+data_path:
+  raw: data/raw/CVD_cleaned.csv
+  clean:
+  model_input: data/model_input
+  additional_data1: data/raw/CVD_cleaned.csv
+  additional_data2: data/raw/CVD_sampled.csv
+other_directories:
+  split:
+  model: data/model
+  scaler:
+  encoder:
+  predictions: data/model_output
+  reporting: data/reporting
+  others:
+problem:
+  classification:
+    tag: True
+    binary: True
+    target: Heart_Disease
+  regression:
+    tag:
+    target:
+  clustering:
+    tag:
+  exclude:
+preprocessing:
+  exclude:
+wandb:
+  user: gianatmaja
+  project: CVD_Trial
+  best_model_url: gianatmaja/CVD_Trial/3ucsbhyu
+
+  
+
