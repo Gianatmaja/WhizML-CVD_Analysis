@@ -23,7 +23,7 @@ Model explainability can be further explored using the `model_explainability` pi
 ![explain](images/explainer.png)
 
 ## Bias Analysis
-Bias analysis can be performed using the Aequitas web app, with the data provided by using the `bias_analysis_data_prep` pipeline.
+Bias analysis can be performed using the [Aequitas web app](http://aequitas.dssg.io/), with the data provided by using the `bias_analysis_data_prep` pipeline.
 
 ![bias](images/bias.png)
 
