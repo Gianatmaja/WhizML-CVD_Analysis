@@ -1,11 +1,11 @@
 task:
-  eda: 
+  eda: True
   data_preprocessing: 
-  model_experimentation:
-  model_finalization:
+  model_experimentation: True
+  model_finalization: True
   model_inference:
   model_explainability: True
-  bias_analysis_data_prep:
+  bias_analysis_data_prep: True
   data_drift_analysis: True
 data_path:
   raw: data/raw/CVD_cleaned.csv
@@ -35,9 +35,9 @@ problem:
 preprocessing:
   exclude:
 wandb:
-  user: gianatmaja
-  project: CVD_Trial
-  best_model_url: gianatmaja/CVD_Trial/3ucsbhyu
+  user: 
+  project: 
+  best_model_url: 
 
   
 
